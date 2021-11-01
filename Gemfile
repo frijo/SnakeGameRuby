@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+ gem 'faker','~> 2.19.0'
+
+ gem 'ruby2d', '~>0.11.0'
+
+ gem 'minitest', '~> 5'
